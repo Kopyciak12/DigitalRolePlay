@@ -1,0 +1,63 @@
+button.useravatar_btn {
+  background: transparent;
+  border: none;
+}
+
+button.useravatar_btn {
+  outline: none;
+}
+
+#useravatar__cont {
+  position: absolute;
+  right: 0;
+  top: 110%;
+  width: 10rem;
+  height: 10rem;
+  background: #3b4146;
+}
+
+#useravatar__cont_triangle {
+  position: absolute;
+  top: -13%;
+  right: 16%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 25px 25px 25px;
+  border-color: transparent transparent #3b4146 transparent;
+}
+
+button.btn.btn-outline-success {
+  position: relative;
+  margin: 0 auto;
+  top: 27%;
+}
+
+img.useravatar {
+  border-radius: 100%;
+}
+
+h1, h3 {
+  color: #fff;
+}
+
+html {
+  background: #191919;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+  transition: 1s;
+}
+
+.btn-admin {
+  margin-top: 1rem;
+}
+
+button.btn.btn-outline-success.btn-admin {
+  top: 35%;
+}
